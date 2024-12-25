@@ -1,21 +1,19 @@
-Flask==2.2.2             # Flask 웹 프레임워크
-Flask-Cors==3.1.1        # CORS 설정을 위한 라이브러리 (Cross-Origin Resource Sharing)
-numpy==1.23.4            # 수학 및 배열 처리 라이브러리 (예: 데이터 전처리, 계산 등)
-pandas==1.5.2            # 데이터 처리 및 분석 라이브러리 (예: 데이터프레임)
-scikit-learn==1.0.2      # 머신러닝 모델 학습 및 예측 라이브러리 (예: 모델 학습)
-tensorflow==2.11.0      # 딥러닝 모델을 위한 라이브러리 (필요시)
-torch==1.13.0           # PyTorch (필요시, 딥러닝 모델)
-requests==2.28.1        # HTTP 요청을 보내기 위한 라이브러리 (외부 API 호출 등)
-gunicorn==20.1.0        # 프로덕션 환경에서 Flask 애플리케이션을 실행하기 위한 WSGI 서버
-olefile==0.46            # 한글 파일(.hwp) 읽기 위한 라이브러리
-PyPDF2==2.11.1          # PDF 파일 읽기 위한 라이브러리
-python-docx==0.8.11     # Word(.docx) 파일 읽기 위한 라이브러리
-openpyxl==3.0.10        # Excel 파일 읽기 위한 라이브러리
-python-pptx==0.6.21     # PowerPoint 파일 읽기 위한 라이브러리
-striprtf==0.3.1         # RTF 파일 읽기 위한 라이브러리
-beautifulsoup4==4.11.1  # HTML 파일 읽기 및 파싱을 위한 라이브러리
-ebooklib==0.17.0        # EPUB 파일 읽기 위한 라이브러리
-lxml==4.9.2             # XML 파일 읽기 위한 라이브러리
-pyyaml==6.0             # YAML 파일 읽기 위한 라이브러리
-requests==2.28.1          # HTTP 요청을 보내기 위한 라이브러리 (웹 크롤링 및 API 호출)
-beautifulsoup4==4.11.1    # HTML/XML 파싱을 위한 라이브러리 (웹 페이지에서 텍스트 추출)
+Flask==2.2.2
+Flask-Cors==5.0.0
+numpy>=1.25.0
+pandas==1.5.2
+scikit-learn==1.0.2
+tensorflow==2.11.0
+torch==1.13.0
+requests==2.28.1
+gunicorn==20.1.0
+olefile==0.46
+PyPDF2==2.11.1
+python-docx==0.8.11
+openpyxl==3.0.10
+python-pptx==0.6.21
+striprtf==0.0.28
+beautifulsoup4==4.11.1
+ebooklib==0.17.0
+lxml==4.9.2
+pyyaml==6.0

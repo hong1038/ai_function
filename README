@@ -1,1 +1,13 @@
+# 파이썬 버전
+# 3.10.0
+
+# 파이썬 구동
 # pip install -r requirements.txt
+# pip install setuptools
+
+# 가상화
+# python -m venv myenv
+# myenv\Scripts\activate
+
+# 임시 powershell 권한
+# Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
